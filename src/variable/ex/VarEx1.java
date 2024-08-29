@@ -1,6 +1,4 @@
-package variable;
-
-import java.sql.SQLOutput;
+package variable.ex;
 
 public class VarEx1 {
     public static void main(String[] args) {
