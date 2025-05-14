@@ -12,18 +12,13 @@ class Solution {  //특이한 정렬
                 else if(Math.abs(numlist[j]-n) ==Math.abs(numlist[minIndex]-n)) {
                     if(numlist[j]>numlist[minIndex])
                         minIndex=j;
-                    
                 }  
-                
             }
             answer[i]=numlist[minIndex];
             tmp=numlist[i];
             numlist[i]=numlist[minIndex];
             numlist[minIndex]=tmp;
-            
         }
-        
-        
         return answer;
     }
 }
